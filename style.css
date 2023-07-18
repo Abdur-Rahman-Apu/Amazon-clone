@@ -411,6 +411,22 @@ main .hero-section {
 .shopping-category-section {
   padding: 0 2%;
 }
+
+/* popular pc product section  */
+
+.popular-pc-product-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.popular-pc-product-section .carousel .items div {
+  width: 300px;
+}
+
+.popular-pc-product-section .carousel .items div img {
+  width: 300px;
+  object-fit: contain;
+}
 /* media query for mobile device  */
 
 @media screen and (max-width: 600px) {
