@@ -5,6 +5,10 @@
   font-family: Arial;
 }
 
+body {
+  background-color: #e3e6e6;
+}
+
 .navbar {
   height: 60px;
   background-color: #0f1111;
@@ -118,10 +122,18 @@
   width: 20px;
 }
 
-.language select {
-  background: transparent;
-  border: 0;
+.language {
+  display: flex;
+  align-items: center;
+}
+
+.language p {
   color: #fff;
   font-weight: 600;
   font-size: 0.875rem;
+  margin-left: 4px;
+}
+
+.language img {
+  width: 15px;
 }
