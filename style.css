@@ -405,6 +405,12 @@ main .hero-section {
 .popular-beauty-product-section .carousel .items div {
   padding: 15px;
 }
+
+/* shopping category section  */
+
+.shopping-category-section {
+  padding: 0 2%;
+}
 /* media query for mobile device  */
 
 @media screen and (max-width: 600px) {
