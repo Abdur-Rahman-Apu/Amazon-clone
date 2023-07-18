@@ -222,6 +222,7 @@ body {
 
 main .hero-section {
   position: relative;
+  height: 1560px;
 }
 
 .hero-section .hero-image {
@@ -366,6 +367,44 @@ main .hero-section {
   border-radius: 8px;
 }
 
+/* top sell toys section  */
+
+.carousel-section {
+  margin: 0 2% 40px;
+  height: 262px;
+  background-color: #fff;
+}
+
+.carousel {
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.carousel h3 {
+  font-size: 21px;
+  color: #0f1111;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.carousel .items {
+  display: flex;
+}
+
+.carousel .items div {
+  height: 200px;
+}
+
+.carousel .items div img {
+  height: 100%;
+}
+
+/* popular beauty product section  */
+
+.popular-beauty-product-section .carousel .items div {
+  padding: 15px;
+}
 /* media query for mobile device  */
 
 @media screen and (max-width: 600px) {
@@ -418,5 +457,9 @@ main .hero-section {
 
   .gallery-four-image {
     grid-template-columns: repeat(2, 165px);
+  }
+
+  main .hero-section {
+    height: 4170px;
   }
 }
