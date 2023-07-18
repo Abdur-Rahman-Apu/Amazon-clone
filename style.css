@@ -100,3 +100,28 @@
 .search-icon:hover {
   background-color: #f3a847;
 }
+
+.language-box {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.country {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.country img {
+  height: 15px;
+  width: 20px;
+}
+
+.language select {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
