@@ -67,11 +67,6 @@ body {
   height: 40px;
   background-color: #febd69;
   border-radius: 4px;
-  border: 2px solid #0f1111;
-}
-
-.search-box:hover {
-  border: 2px solid orange;
 }
 
 .select-box select {
@@ -191,4 +186,30 @@ body {
   font-weight: 700;
   font-size: 0.875rem;
   padding-top: 25px;
+}
+
+.panel {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: #232f3e;
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+.panel-all {
+  padding: 10px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.panel-all i {
+  font-size: 1.0625rem;
+}
+
+.panel-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 11px;
 }
