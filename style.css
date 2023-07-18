@@ -137,3 +137,25 @@ body {
 .language img {
   width: 15px;
 }
+
+.nav-same-format span {
+  font-size: 0.75rem;
+}
+
+.nav-same-format p:last-child {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.account-box,
+.return-box {
+  padding: 10px;
+}
+
+.account-box p {
+  display: flex;
+  align-items: center;
+}
+.account-box p img {
+  width: 15px;
+}
