@@ -211,5 +211,19 @@ body {
   text-decoration: none;
   color: #fff;
   font-weight: 500;
+  font-size: 0.875rem;
   padding: 11px;
+}
+
+/* main part  */
+
+main .hero-section .hero-image {
+  height: 600px;
+  padding-left: 2%;
+}
+
+.hero-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
