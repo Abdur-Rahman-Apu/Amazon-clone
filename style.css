@@ -741,6 +741,7 @@ footer .signin-section {
   border-radius: 4px;
   color: #fff;
   margin-right: 8px;
+  cursor: pointer;
 }
 
 .footer-middle-section .items .btns button p {
@@ -778,7 +779,8 @@ footer .signin-section {
   color: #9e9fa5;
 }
 
-.footer-shortcut-links .links div a :hover {
+.footer-shortcut-links .links div a:hover,
+.footer-shortcut-links .links div a p:hover {
   text-decoration: underline;
 }
 
@@ -786,6 +788,40 @@ footer .signin-section {
   color: #fff;
 }
 
+.copyright-section {
+  height: 110px;
+  background-color: #131a22;
+  color: #b3b7b9;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright-section .important-links {
+  display: flex;
+  align-items: center;
+}
+
+.copyright-section .important-links a:last-of-type {
+  display: flex;
+  align-items: center;
+}
+
+.copyright-section .important-links a {
+  text-decoration: none;
+  color: #b3b7b9;
+  margin-right: 14px;
+}
+.copyright-section .important-links a:hover {
+  text-decoration: underline;
+}
+
+.copyright-section .important-links a img {
+  width: 50px;
+  height: 40px;
+}
 /* media query  */
 
 @media screen and (max-width: 1024px) {
