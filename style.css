@@ -674,7 +674,8 @@ footer .signin-section {
   padding: 40px 0;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .footer-first-shortcut-links p {
@@ -698,7 +699,7 @@ footer .signin-section {
 }
 
 .footer-middle-section {
-  height: 88px;
+  min-height: 88px;
   background-color: #232f3e;
   border-top: 1px solid #6c7075;
   display: flex;
@@ -894,6 +895,34 @@ footer .signin-section {
 
   main .hero-section {
     height: 2450px;
+  }
+
+  .footer-middle-section .items {
+    flex-direction: column;
+  }
+
+  .footer-first-shortcut-links {
+    align-items: flex-start;
+  }
+
+  .footer-first-shortcut-links div {
+    margin-bottom: 40px;
+    padding: 8px;
+  }
+
+  .footer-middle-section .footer-logo {
+    margin-right: 0;
+  }
+
+  .footer-middle-section .items .btns {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .footer-middle-section .items .btns button {
+    margin-bottom: 20px;
   }
 }
 
