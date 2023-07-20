@@ -697,6 +697,61 @@ footer .signin-section {
   margin-right: 4px;
 }
 
+.footer-middle-section {
+  height: 88px;
+  background-color: #232f3e;
+  border-top: 1px solid #6c7075;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-middle-section .footer-logo {
+  width: 120px;
+  height: 68px;
+  margin-right: 60px;
+}
+
+.footer-middle-section .footer-logo img {
+  width: 90%;
+  height: 100%;
+}
+
+.footer-middle-section .items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-middle-section .items .btns {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 25px;
+}
+
+.footer-middle-section .items .btns button {
+  width: 150px;
+  height: 33px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #6c7075;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  margin-right: 8px;
+}
+
+.footer-middle-section .items .btns button p {
+  margin-left: 6px;
+}
+
+.footer-middle-section .items .btns button img {
+  width: 18px;
+  height: 12px;
+}
+
 /* media query  */
 
 @media screen and (max-width: 1024px) {
