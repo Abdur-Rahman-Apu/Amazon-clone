@@ -412,6 +412,10 @@ main .hero-section {
   padding: 0 2%;
 }
 
+.shopping-category-section .row .col {
+  height: fit-content;
+}
+
 /* popular pc product section  */
 
 .popular-pc-product-section {
@@ -531,6 +535,10 @@ main .hero-section {
 
 /* shopping section two  */
 
+.shopping-section-two {
+  margin-top: 40px;
+}
+
 .shopping-section-two .gallery-single-image-first {
   margin-top: 10px;
   height: 194px;
@@ -545,10 +553,12 @@ main .hero-section {
 
 .shopping-section-two .col:first-of-type p {
   margin-top: 0;
+  font-size: 13px;
 }
 
 .shopping-section-two .col:first-of-type .price {
   font-size: 21px;
+  margin: 10px 0;
 }
 
 .shopping-section-two .col:first-of-type .price span {
@@ -582,9 +592,46 @@ main .hero-section {
   height: 100%;
 }
 
-/* media query for mobile device  */
+.top-seller-book-section {
+  margin-top: 40px;
+}
 
-@media screen and (max-width: 600px) {
+.top-seller-book-section div {
+  padding: 5px 10px 10px;
+}
+
+.shopping-category-section-three .col .gallery-single-image {
+  height: 304px;
+}
+
+.shopping-category-section-three
+  .col:first-of-type
+  .gallery-single-image:first-of-type {
+  height: 280px;
+}
+.shopping-category-section-three .col .gallery-single-image .img {
+  height: 100%;
+}
+
+/* media query  */
+
+@media screen and (max-width: 1024px) {
+  main .hero-section {
+    height: 2480px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hero-section .hero-image,
+  .shopping-category,
+  .shopping-category-section {
+    padding-left: 0;
+  }
+
+  .carousel-section {
+    margin: 0 0 20px;
+  }
+
   .mobile-hidden {
     display: none;
   }
@@ -636,6 +683,12 @@ main .hero-section {
     grid-template-columns: repeat(2, 165px);
   }
 
+  main .hero-section {
+    height: 2450px;
+  }
+}
+
+@media screen and (max-width: 600px) {
   main .hero-section {
     height: 4170px;
   }
