@@ -613,6 +613,90 @@ main .hero-section {
   height: 100%;
 }
 
+/* footer section  */
+
+footer {
+  background-color: #fff;
+  padding-top: 40px;
+}
+
+footer .signin-section {
+  height: 126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+
+.signin-section p:first-of-type {
+  font-size: 13px;
+}
+.signin-section p:last-of-type {
+  font-size: 11px;
+}
+
+.signin-section button {
+  width: 230px;
+  height: 28px;
+  background-color: #ffce53;
+  border: 0;
+  outline: 0;
+  border-radius: 6px;
+  margin: 4px 0;
+}
+
+.signin-section a {
+  text-decoration: none;
+  color: #538b94;
+  margin-left: 4px;
+}
+
+.back-top {
+  height: 50px;
+  background-color: rgba(55, 71, 90, 1);
+  color: #fff;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.back-top:hover {
+  background-color: rgba(55, 71, 90, 0.9);
+}
+
+.footer-first-shortcut-links {
+  background-color: #232f3e;
+  color: #fff;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-first-shortcut-links p {
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.footer-first-shortcut-links .links a {
+  font-size: 14px;
+  color: #ddd;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-first-shortcut-links .links a:hover {
+  text-decoration: underline;
+}
+.footer-first-shortcut-links .links a i {
+  margin-right: 4px;
+}
+
 /* media query  */
 
 @media screen and (max-width: 1024px) {
