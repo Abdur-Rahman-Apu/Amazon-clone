@@ -752,6 +752,40 @@ footer .signin-section {
   height: 12px;
 }
 
+.footer-shortcut-links {
+  height: fit-content;
+  background-color: #131a22;
+  color: #ddd;
+  padding: 40px 6%;
+  font-size: 12px;
+}
+
+.footer-shortcut-links .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-shortcut-links .links div {
+  width: 81px;
+  height: 106px;
+  margin: 0 30px;
+}
+
+.footer-shortcut-links .links div a {
+  text-decoration: none;
+  color: #9e9fa5;
+}
+
+.footer-shortcut-links .links div a :hover {
+  text-decoration: underline;
+}
+
+.footer-shortcut-links .links div a p {
+  color: #fff;
+}
+
 /* media query  */
 
 @media screen and (max-width: 1024px) {
