@@ -222,7 +222,7 @@ body {
 
 main .hero-section {
   position: relative;
-  height: 1560px;
+  min-height: 1560px;
 }
 
 .hero-section .hero-image {
@@ -268,7 +268,8 @@ main .hero-section {
 }
 
 .shopping-category {
-  position: absolute;
+  margin-top: -340px;
+  margin-bottom: 20px;
   top: 240px;
   left: 0;
   padding: 0 2%;
@@ -282,7 +283,7 @@ main .hero-section {
 }
 
 .row .col {
-  height: 420px;
+  min-height: 420px;
   background-color: #fff;
   padding: 20px;
 }
